@@ -1,5 +1,5 @@
 import telepot
-bot = telepot.Bot("1062730462:AAFTLJLEaLkXZpdz4RJM44-q8agNvWbMGzQ")
+bot = telepot.Bot("token")
 
 Chat_id = bot.getUpdates()[0]['message']['chat']['id']
 
